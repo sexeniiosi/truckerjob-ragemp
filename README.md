@@ -7,17 +7,17 @@
 <h2>Setup</h2>
 
 <ol>
-    <li>Run the RAGE Multiplayer server:</li>
-    <p>Refer to the RAGE Multiplayer documentation for server setup instructions.</p>
+    Run the RAGE Multiplayer server:
+    Refer to the RAGE Multiplayer documentation for server setup instructions.
 
-    <li>Set up the resource in server resources:</li>
-    <p>Copy the contents of this repository into your RAGE Multiplayer server resources.</p>
+    Set up the resource in server resources:
+    Copy the contents of this repository into your RAGE Multiplayer server resources.
 
-    <li>Start the server:</li>
-    <p>Launch the RAGE Multiplayer server.</p>
+    Start the server:
+    Launch the RAGE Multiplayer server.
 
-    <li>Launch the client:</li>
-    <p>Connect to your server using the RAGE Multiplayer client.</p>
+    Launch the client:
+    Connect to your server using the RAGE Multiplayer client.
 </ol>
 
 <h2>Usage</h2>
