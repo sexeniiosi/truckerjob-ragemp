@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF0000; /* Red color for the main title "Trucker Jobs" */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+#delivery-info {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(50, 50, 50, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#locations-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.location-item {
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgba(80, 80, 80, 0.8);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.location-item:hover {
+    background-color: #555;
+}
+
+.location-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1E90FF;
+}
+
+.location-distance {
+    font-style: italic;
+    color: #32CD32;
+}
+
+.location-cost {
+    display: block;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
