@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+    background-color: #141414; 
+    color: #fff; 
     margin: 0;
     padding: 20px;
 }
@@ -10,18 +10,17 @@ body {
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
-    color: #FF0000; /* Red color for the main title "Trucker Jobs" */
+    color: #E50914; 
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 #delivery-info {
     max-width: 400px;
     margin: 0 auto;
-    background-color: rgba(50, 50, 50, 0.9);
-    padding: 20px;
-    border-radius: 8px;
+    background-color: #222; /* Tamnija pozadina */
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-transform: uppercase;
+    padding: 30px; 
 }
 
 h2 {
@@ -29,43 +28,82 @@ h2 {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 15px;
-    color: #333;
+    color: #E50914; /* Ostaće crvena boja za naslove */
 }
 
 #locations-list {
-    list-style-type: none;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .location-item {
-    margin-bottom: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    background-color: rgba(80, 80, 80, 0.8);
-    border-radius: 8px;
-    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333; /* Tamnija pozadina za stavke u listi */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Dodajemo blagi sjaj */
 }
 
-.location-item:hover {
-    background-color: #555;
-}
-
-.location-name {
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #1E90FF;
-}
-
-.location-distance {
-    font-style: italic;
-    color: #32CD32;
+.location-info {
+    flex: 1;
 }
 
 .location-cost {
-    display: block;
-    margin-top: 10px;
+    flex: 0 0 auto;
     padding: 8px;
-    background-color: #4CAF50;
+    background-color: #E50914; /* Crvena pozadina za cijene */
     color: white;
     border-radius: 5px;
+    text-align: center;
+}
+
+#info-window {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: #222; /* Tamnija pozadina */
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    z-index: 9999; 
+    min-width: 300px; 
+    min-height: 200px; 
+}
+
+.tour-title h2 {
+    font-size: 1.5rem;
+    color: #E50914; /* Crvena za naslove */
+    margin: 0.5rem 0;
+}
+
+.tour-city p,
+.tour-vehicle p,
+.tour-jobType p,
+.tour-price p {
+    font-weight: bold;
+    color: #fff; /* Bijela boja za tekst u informacijama */
+    margin: 0.5rem 0;
+}
+
+.tour-price p {
+    color: #E50914; /* Crvena boja za cijenu */
+}
+
+button {
+    background-color: #E50914; /* Crvena pozadina za dugmadi */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #b40512; /* Tamnija crvena boja pri hoveru */
 }
