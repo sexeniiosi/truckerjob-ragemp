@@ -1,8 +1,8 @@
-# Trucker Jobs - RAGE Multiplayer
+# KAMIONDZIJA - RAGE Multiplayer
 
 ## Opis
 
-**Trucker Jobs** je aplikacija za RAGE Multiplayer platformu koja omogućava virtualnim vozačima kamiona da prevoze teret do specifičnih lokacija. Aplikacija koristi HTML, CSS i JavaScript u kombinaciji s RAGE Multiplayer API-jem kako bi omogućila interaktivno iskustvo prevoza tereta. Igrači mogu prevoziti različite vrste tereta koristeći različita vozila, a svaka tura ima svoju zaradu na temelju udaljenosti.
+**KAMIONDZIJAs** je aplikacija za RAGE Multiplayer platformu koja omogućava virtualnim vozačima kamiona da prevoze teret do specifičnih lokacija. Aplikacija koristi HTML, CSS i JavaScript u kombinaciji s RAGE Multiplayer API-jem kako bi omogućila interaktivno iskustvo prevoza tereta. Igrači mogu prevoziti različite vrste tereta koristeći različita vozila, a svaka tura ima svoju zaradu na temelju udaljenosti.
 
 ## Postavke
 
