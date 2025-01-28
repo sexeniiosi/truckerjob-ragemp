@@ -34,5 +34,3 @@
 
     <h2>Licenca</h2>
     <p>Ovaj projekt je licenciran pod <strong>MIT licencom</strong>. Više informacija možete pronaći u <a href="LICENSE" target="_blank">LICENSE</a> datoteci.</p>
-</body>
-</html>
